@@ -11,11 +11,15 @@
 .article-left-side {
 	min-width: 20%;
 	max-width: 20%;
+	margin: auto;
+}
+
+.article-left-side img{
+	width: 100%;
 }
 
 .article-right-side {
 	flex-basis: 80%;
-	min-width: 700px;
 	mix-blend-mode: normal;
 	border-radius: 20px;
 	opacity: 0.8;
@@ -26,12 +30,6 @@
 	background: #fafafa;
 	opacity: 1;
 	transition: background-color 0.3s ease-in-out;
-}
-
-.article-date {
-	padding-top: 30px;
-	font-size: 15px;
-	color: var(--tertiary-color);
 }
 
 .article-title {

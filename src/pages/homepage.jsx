@@ -8,19 +8,22 @@ import {
 	faGithub,
 	faStackOverflow,
 	faInstagram,
-	faLinkedin
+	faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 
 import Logo from "../components/common/logo";
 import Footer from "../components/common/footer";
 import NavBar from "../components/common/navBar";
-import Article from "../components/homepage/article";
 import Works from "../components/homepage/works";
 import AllProjects from "../components/projects/allProjects";
+import Article from "../components/articles/article";
+
+import ProfilePicture from "../assets/icons/profile/jude-luis-baptista.jpeg";
+import Fifa from "../assets/icons/volunteer/fifa-world-cup.jpg";
+import Afc from "../assets/icons/volunteer/afc-championship.jpg";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
-import myArticles from "../data/articles";
 
 import "./styles/homepage.css";
 
@@ -105,8 +108,8 @@ const Homepage = () => {
 								<div className="homepage-image-container">
 									<div className="homepage-image-wrapper">
 										<img
-											src="homepage.jpg"
-											alt="about"
+											src={ProfilePicture}
+											alt="profile"
 											className="homepage-image"
 										/>
 									</div>
@@ -195,20 +198,22 @@ const Homepage = () => {
 
 						<div className="homepage-after-title">
 							<div className="homepage-articles">
-								{myArticles.map((article, index) => (
-									<div
-										className="homepage-article"
-										key={(index + 1).toString()}
-									>
-										<Article
-											key={(index + 1).toString()}
-											date={article().date}
-											title={article().title}
-											description={article().description}
-											link={"/article/" + (index + 1)}
-										/>
-									</div>
-								))}
+								<h2>Volunteer Experience</h2>
+								<div className="homepage-article">
+									<Article
+										img={Fifa}
+                                         postion="Hospitality Staff"
+										title="FIFA U-17 World Cup, India"
+										description="Managed VIP/VVIPs in the stadium lounge, enhancing guest satisfaction by ensuring a seamless experience for over fifty plus high-profile attendees during the tournament"
+									/>
+
+									<Article
+										img={Afc}
+										position="Dopping Control Lead"
+										title="2016 AFC U-16 Championship, India"
+										description="Managed doping control checks for players receiving red cards, ensuring 100% compliance with FIFA regulations during the tournament."
+									/>
+								</div>
 							</div>
 
 							<div className="homepage-works">

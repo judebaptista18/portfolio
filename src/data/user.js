@@ -6,6 +6,7 @@ import mechgiri from "../assets/icons/project/mechgiri-icon.jpg";
 import gaihct from "../assets/icons/project/gaihct-icon.jpg";
 import eas from "../assets/icons/project/eas-icon.jpeg";
 import litebulb from "../assets/icons/project/litebulb-icon.png";
+import FMA from "../assets/icons/project/FMA-icon.png";
 const INFO = {
 	main: {
 		title: "Jude's Porfolio",
@@ -30,90 +31,93 @@ const INFO = {
 	},
 
 	about: {
-		title: "I’m Tharindu N. I live in Sri Lanka, where I design the future.",
+		title: "I’m Jude Baptista, a passionate Software engineer with enthusiasm to learn.",
 		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
-	},
-
-	articles: {
-		title: "I'm passionate about pushing the boundaries of what's possible and inspiring the next generation of innovators.",
-		description:
-			"Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
+			"I have worked on multiple projects, built dynamic and user-friendly web applications. I thrive in collaborative environments, constantly adapting and learning to tackle new challenges. My strong problem-solving skills, attention to detail, and effective communication allow me to contribute meaningfully to team success. Outside of work, I'm deeply committed to sports, especially football, and maintain a disciplined approach to my diet and gym routine. This commitment helps me stay consistent, confident, and focused in both my personal and professional life.",
 	},
 
 	projects: [
+		{
+			title: "GoTo Checkout Flow & Trial Forms - GoTo, USA",
+			description:
+				"Spearheaded the maintenance and migration of payment checkout flow to a unified, config-driven checkout system. Redesigned user trial forms as dynamic, embeddable micro-frontends, seamlessly integrated across multiple product marketing websites. Improved user interaction and conversion rates by leveraging modern frontend technologies.",
+			logo: goto,
+			techStack: ["reactjs", "js", "typescript","reduxsaga","vitejs","sass","storybook","jest","playwright","jira","git"],
+			linkText: "GoTo Meeting",
+			link: "https://www.goto.com/meeting",
+		},
 		{
 			title: "VIB projects - VIB, Belgium",
 			description:
 				"Led the development of multiple modules, including: Vib-Form: Enabled web publishers to create dynamic, embeddable forms for campaign management and result tracking via a dashboard. Vib-Home: A configurable micro-frontend showcasing research work, featuring advanced filters for displaying posts and news.Empowered web publishers to create posts using CKEditor, where I developed custom plugins for diagrams, attachments, and a new text viewer.",
 			logo: vib,
-			techStack: ["restAPI","typescript"],
+			techStack: ["reactjs", "js", "typescript","redux","webpack","less","antd","azure","docker","datadog","jira","bitbucket"],
 			linkText: "VIB",
 			link: "https://vib.be/",
 		},
-
 		{
 			title: "Onstro - Workplace",
 			description:
 				"Led core development efforts for Onstro, an enterprise agility SaaS platform for project management. Designed and implemented a booking module, enabling real-time booking data management in a React-based web application and a React Native TV app functioning as a kiosk.",
 			logo: onstro,
+			techStack: ["reactjs","nextjs", "js", "typescript","redux","webpack","vitejs","less","antd","jest"],
 			linkText: "Workplace by Onstro",
 			link: "https://workplace.onstro.com/",
 		},
-
-		{
-			title: "GoTo Checkout Flow & Trial Forms - GoTo, USA",
-			description:
-				"Spearheaded the maintenance and migration of payment checkout forms to a unified, config-driven checkout system. Redesigned user trial forms as dynamic, embeddable micro-frontends, seamlessly integrated across multiple product marketing websites. Improved user interaction and conversion rates by leveraging modern frontend technologies.",
-			logo: goto,
-			linkText: "GoTo Meeting",
-			link: "https://www.goto.com/meeting",
-		},
-
+	
 		{
 			title: "Netzsch CRM - Netzsch, Germany",
 			description:
 				"Developed a CRM web application to facilitate spare parts management, pump sales, and sales personnel operations. Enhanced sales acceleration, organized contacts, and streamlined the lead management process.",
 			logo: netzsch,
+			techStack: ["reactjs", "codeigniter","php","js","css3","bootstrap4","mysql","aws"],
 			linkText: "Netzsch Group",
 			link: "https://www.netzsch.com/en",
 		},
-
 		{
-			title: "Mechgiri Car Service and Parts - MechGiri, India",
+			title: "Mechgiri Car Service and Parts, India",
 			description:
 				"Developed and delivered a client-facing website and a customized CMS for a spare parts provider. Implemented an inventory management system, streamlining spare parts cataloguing and reducing manual errors. Optimized operational workflows and reduced content management errors by 30%, ensuring smoother service delivery.",
 			logo: mechgiri,
+			techStack: ["reactjs","typescript","chakraui","nodejs","mysql","aws"],
 			linkText: "View Project",
-			link: "https://github.com",
+			// link: "https://github.com",
 		},
-
 		{
 			title: "Guardian Angel Institute of Hotel Management and Catering Technology - GAIHM, India",
 			description:
-				"Designed and developed a comprehensive web panel and website with features such as role-based access control, online leave applications, academic fee payments via Razorpay, sharing of learning materials, attendance notifications, and management modules for students, staff, and alumni.",
+				"Designed and developed a comprehensive web panel with features such as role-based access control, online leave applications, academic fee payments via Razorpay, sharing of learning materials, attendance notifications, and management modules for students, staff, and alumni.",
 			logo: gaihct,
+			techStack: ["codeigniter","jquery","php","js","css3","bootstrap4","mysql","aws"],
 			linkText: "GAIHM Website",
 			link: "https://gaihm.edu.in/",
 		},
-
 		{
 			title: "Effective Architectural Services Portal, India",
 			description:
 				"Designed and developed a dynamic web portal for architectural services, leveraging third-party libraries like Chart.js and Syncfusion to create interactive charts and graphs. This enhanced project visualization, streamlined timeline tracking, and improved client engagement by providing intuitive data representation and real-time insights.",
 			logo: eas,
+			techStack: ["php","js","css3","bootstrap4","mysql","aws"],
 			linkText: "GAIHM Website",
 			link: "http://effectivearchitecturalservices.com/",
 		},
-
-
 		{
 			title: "LiteBulb Entertainment, India",
 			description:
 				"Developed a comprehensive web platform for talent hiring and engagement, featuring a custom CMS for managing advertising data, opening audition positions, and facilitating user applications. The platform enables users to create profiles and apply for opportunities in modeling, dancing, acting, and advertising roles.",
 			logo: litebulb,
+			techStack: ["reactjs","php","js","tailwindcss","mysql","aws"],
 			linkText: "litebulb Website",
 			link: "https://litebulb.in/",
+		},
+		{
+			title: "Real Time flood-monitoring Tool",
+			description:
+				"Developed a website that allows users to search and view flood readings from the past 24 hours across multiple UK locations, presented in both graphical and tabular formats.",
+			logo: FMA,
+			techStack: ["reactjs","js","css3"],
+			linkText: "FMT Website",
+			link: "https://flood-monitoring-tool.vercel.app/",
 		},
 	],
 };
