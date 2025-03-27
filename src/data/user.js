@@ -78,7 +78,7 @@ const INFO = {
 				"bitbucket",
 			],
 			linkText: "VIB",
-			link: "https://vib.be/",
+			// link: "https://vib.be/",
 		},
 		{
 			title: "VIB Home - VIB, Belgium",
@@ -122,7 +122,7 @@ const INFO = {
 				"bitbucket",
 			],
 			linkText: "VIB",
-			link: "https://vib.be/",
+			// link: "https://vib.be/",
 		},
 		{
 			title: "Research Data Collection - VIB, Belgium",
@@ -142,7 +142,7 @@ const INFO = {
 				"bitbucket",
 			],
 			linkText: "VIB",
-			link: "https://vib.be/",
+			// link: "https://vib.be/",
 		},
 		{
 			title: "Onstro - Workplace",
