@@ -63,7 +63,7 @@ const INFO = {
 		{
 			title: "GoTo Checkout Flow & Trial Forms - GoTo, USA",
 			description:
-				"B2B SaSS e-commerce website : Checkout Flow: Led the maintenance and migration of payment checkout forms to a unified, config-driven system, reducing developer effort and providing a scalable, maintainable solution for future project integrations.User Trial Forms: Redesigned user trial forms as dynamic micro-frontends, seamlessly integrated across multiple product marketing websites. Enhanced user interaction, made the forms configurable to minimize frontend changes, and created a dynamic solution adaptable to various products.",
+				"B2B SaaS e-commerce website : Checkout Flow: Led the maintenance and migration of payment checkout forms to a unified, config-driven system, reducing developer effort and providing a scalable, maintainable solution for future project integrations.User Trial Forms: Redesigned user trial forms as dynamic micro-frontends, seamlessly integrated across multiple product marketing websites. Enhanced user interaction, made the forms configurable to minimize frontend changes, and created a dynamic solution adaptable to various products.",
 			logo: goto,
 			techStack: [
 				"reactjs",
