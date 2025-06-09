@@ -7,6 +7,7 @@ import gaihct from "../assets/icons/project/gaihct-icon.jpg";
 import eas from "../assets/icons/project/eas-icon.jpeg";
 import litebulb from "../assets/icons/project/litebulb-icon.png";
 import FMA from "../assets/icons/project/FMA-icon.png";
+import accuride from "../assets/icons/company/accuride-logo.svg";
 const INFO = {
 	main: {
 		title: "Jude's Porfolio",
@@ -38,9 +39,31 @@ const INFO = {
 
 	projects: [
 		{
+			title: "Accuride Internation Europe, UK/EU",
+			description:
+				"Led the upgrade of a B2B e-commerce platform that enabled users worldwide—including clients from the UK, EU, and beyond to purchase industrial-grade hardware parts. Implemented both cart-based and quote-based purchasing journeys to support diverse customer needs.",
+			logo: accuride,
+			techStack: [
+				"nextjs",
+				"i18next",
+				"reactjs",
+				"js",
+				"typescript",
+				"bootstrap5",
+				"analytics",
+				"graphql",
+				"sass",
+				"jira",
+				"bitbucket",
+				"aws"
+			],
+			linkText: "Accuride Europe",
+			link: "https://www.accuride-europe.com/en-GB",
+		},
+		{
 			title: "GoTo Checkout Flow & Trial Forms - GoTo, USA",
 			description:
-				"Checkout Flow: Led the maintenance and migration of payment checkout forms to a unified, config-driven system, reducing developer effort and providing a scalable, maintainable solution for future project integrations.User Trial Forms: Redesigned user trial forms as dynamic micro-frontends, seamlessly integrated across multiple product marketing websites. Enhanced user interaction, made the forms configurable to minimize frontend changes, and created a dynamic solution adaptable to various products.",
+				"B2B SaSS e-commerce website : Checkout Flow: Led the maintenance and migration of payment checkout forms to a unified, config-driven system, reducing developer effort and providing a scalable, maintainable solution for future project integrations.User Trial Forms: Redesigned user trial forms as dynamic micro-frontends, seamlessly integrated across multiple product marketing websites. Enhanced user interaction, made the forms configurable to minimize frontend changes, and created a dynamic solution adaptable to various products.",
 			logo: goto,
 			techStack: [
 				"reactjs",
@@ -50,6 +73,7 @@ const INFO = {
 				"vitejs",
 				"sass",
 				"storybook",
+				"analytics",
 				"jest",
 				"playwright",
 				"jira",
