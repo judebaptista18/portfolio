@@ -58,7 +58,7 @@ const INFO = {
 				"aws"
 			],
 			linkText: "Accuride Europe",
-			link: "https://www.accuride-europe.com/en-GB",
+			link: "https://www.accuride.com/en-us",
 		},
 		{
 			title: "GoTo Checkout Flow & Trial Forms - GoTo, USA",
