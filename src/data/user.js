@@ -41,7 +41,7 @@ const INFO = {
 		{
 			title: "Accuride Internation Europe, UK/EU",
 			description:
-				"Led the upgrade of a  B2B e-commerce platform for EU/UK and US, enabling customers from the UK, EU, and other regions to purchase industrial-grade hardware parts. Developed complex cart and quote workflows using Magento, Fourth Shift, and PIM systems, and integrated HubSpot via MakeWebBetter. Built a modern, high-performance frontend with Next.js and React. Also implemented Google Analytics 4 (GA4) and Google Tag Manager (GTM) for enhanced tracking and insights, contributing to noticeable improvements in system performance and user experience.",
+				"Led the modernization of a global B2B e-commerce platform serving the EU, UK, and US markets, enabling seamless procurement of industrial-grade hardware parts. Engineered end-to-end cart and quote workflows by integrating Magento, Fourth Shift ERP, and HubSpot through MakeWebBetter. Executed a high-impact frontend migration from Next.js 10 to 15 and React 19, delivering significant performance gains. Deployed Google Analytics 4 and Google Tag Manager to unlock deeper customer insights, driving measurable improvements in site speed and user experience.",
 			logo: accuride,
 			techStack: [
 				"nextjs",
