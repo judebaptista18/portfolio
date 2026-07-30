@@ -26,7 +26,7 @@ const INFO = {
 	},
 
 	homepage: {
-		title: "Front-End developer, and passionate learner.",
+		title: "Senior Frontend developer, and passionate learner.",
 		description:
 			"Experienced Front End Software Engineer with over seven years of expertise in building scalable, high-performance web applications using React, JavaScript, TypeScript, Next.js and Node.js. Adept at staying ahead of industry trends and leading frontend projects in a fast-paced, and high-pressure environment, delivering results efficiently with a focus on responsive and accessible design, UI development, SEO, performance optimization, maintainability, scalability, security and seamless API integrations. Possesses overall knowledge of the Software Development Lifecycle and a proven ability to collaborate actively within cross-functional Agile teams, delivering innovative, user-centric solutions.",
 	},
