@@ -8,7 +8,7 @@ import Androcid from "../../assets/icons/company/androcid-logo.jpeg"
 import Apexuara from "../../assets/icons/company/apexuara-logo.png"
 import Freelance from "../../assets/icons/company/freelance-logo.png"
 import accuride from "../../assets/icons/company/accuride-logo.svg"
-import Next from "../assets/icons/company/next.png";
+import Next from "../../assets/icons/company/next.png";
 
 import "./styles/works.css";
 
@@ -42,7 +42,7 @@ const Works = () => {
 							<div className="work-subtitle">
 								Frontend Developer
 							</div>
-							<div className="work-duration">2025 - present</div>
+							<div className="work-duration">2025 - 2026</div>
 						</div>
 						<div className="work">
 							<img
