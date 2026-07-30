@@ -8,7 +8,7 @@ import Androcid from "../../assets/icons/company/androcid-logo.jpeg"
 import Apexuara from "../../assets/icons/company/apexuara-logo.png"
 import Freelance from "../../assets/icons/company/freelance-logo.png"
 import accuride from "../../assets/icons/company/accuride-logo.svg"
-import Next from "../assets/icons/volunteer/next.png";
+import Next from "../assets/icons/company/next.png";
 
 import "./styles/works.css";
 
